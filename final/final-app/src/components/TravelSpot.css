@@ -1,0 +1,88 @@
+.spots-gallary .spot-container{
+  flex:1;
+  text-align: center;
+  height: 500px;
+  margin: 0 5px 5px 0;
+  background-color: bisque;
+  width: calc((100% - 5px)/4);
+  min-width: calc((100% - 5px)/4);
+  max-width: calc((100% - 5px)/4);
+
+  
+}
+
+.spots-gallary .spot-container:nth-child(4n){
+  margin-right: 0;
+}
+
+.spots-gallary .spot-container .spot-card{
+   padding-right: 40px;
+}
+
+.spot-card .spot-label h3{
+  color: #81c644;
+  font-size: 26px;
+  margin-top: 0px;
+}
+
+.spot-card .spot-label p{
+  letter-spacing: 0.1px;
+  text-align:justify;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display:-webkit-box; 
+  -webkit-box-orient:vertical; 
+  -webkit-line-clamp:8; 
+  color: #606060;
+  font-size:15px;
+}
+
+.spot-card .spot-label .spot-img{
+  margin: auto;
+  width: 200px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.spot-card .spot-label .spot-detail{
+  margin-top: 40px;
+}
+
+.spot-card .spot-label .detail-link{
+  color: #48BDD8;
+}
+
+.spot-card .spot-label .spot-detail span button{
+  margin-left: 20px;
+}
+
+.spot-card .spot-label .spot-img .spot-i{
+  width: 200px;
+  height: 150px;
+} 
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.spot-card .spot-label .spot-detail span button:hover {
+  border: 1px solid black;
+  filter: brightness(2);
+  background-color: #383838;
+}
+
+
+
+
+
+
+
+
+
+
+
