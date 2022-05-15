@@ -1,0 +1,55 @@
+body {
+  font-family: sans-serif;
+}
+
+#chat-app {
+  max-width: 500px;
+  margin: 1rem auto;
+  border: 2px solid blue;
+  padding: 1rem;
+  background-color: #d8bfd8;
+}
+.message {
+  margin: 1rem;
+}
+
+label {
+  display: block;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+input {
+  display: block;
+  width: 100%;
+  border: 2px solid darkorchid;
+  font-size: 12px;
+}
+
+div.display-panel {
+  max-width: 300px;
+  height: 300px;
+  border: 2px solid;
+  padding: 1rem;
+  margin: 1rem auto;
+  overflow: scroll;
+  background-color: #e6e6fa;
+}
+
+#sendMessageBtn {
+  border: 0;
+  background: #38a9de;
+  color: aliceblue;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+#sendMessageBtn:hover {
+  background-color: #4caf50;
+}
+
+#message-form {
+  max-width: 300px;
+  margin: 1rem auto;
+}
